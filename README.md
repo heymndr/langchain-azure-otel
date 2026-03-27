@@ -1,5 +1,10 @@
 # @mndr/langchain-azure-otel
 
+[![CI](https://github.com/heymndr/langchain-azure-otel/actions/workflows/ci.yml/badge.svg)](https://github.com/heymndr/langchain-azure-otel/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/@mndr/langchain-azure-otel)](https://www.npmjs.com/package/@mndr/langchain-azure-otel)
+[![npm downloads](https://img.shields.io/npm/dm/@mndr/langchain-azure-otel)](https://www.npmjs.com/package/@mndr/langchain-azure-otel)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 OpenTelemetry GenAI tracing for LangChain/LangGraph JS with Azure AI Foundry and Application Insights.
 
 Microsoft's [`langchain-azure-ai`](https://pypi.org/project/langchain-azure-ai/) provides agent tracing for Python. **This package is the Node.js/TypeScript equivalent** — a LangChain callback handler that emits spans following the [OpenTelemetry GenAI semantic conventions](https://opentelemetry.io/docs/specs/semconv/gen-ai/gen-ai-agent-spans/), so Azure AI Foundry's trace viewer can render structured agent traces.
